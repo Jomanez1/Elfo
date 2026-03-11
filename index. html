@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinta tu Elfo Mágico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <header>
+            <h1>¡Fábrica de Color Elf-a!</h1>
+            <p>Elige un color y dale vida a tu elfo</p>
+        </header>
+
+        <div class="main-content">
+            <div class="canvas-container">
+                <img src="elfo-outline.png" alt="Elfo para colorear" id="elfo-template">
+                <canvas id="paintCanvas"></canvas>
+            </div>
+
+            <aside class="palette">
+                <div class="color-box active" style="background-color: #A6242F;" data-color="#A6242F"></div> <div class="color-box" style="background-color: #D97941;" data-color="#D97941"></div> <div class="color-box" style="background-color: #7D8C4F;" data-color="#7D8C4F"></div> <div class="color-box" style="background-color: #2D594F;" data-color="#2D594F"></div> <div class="color-box" style="background-color: #F2E3D5;" data-color="#F2E3D5"></div> <div class="color-box" style="background-color: #BF9C8F;" data-color="#BF9C8F"></div> <div class="color-box" style="background-color: #FFFFFF; border: 1px solid #ccc;" data-color="#FFFFFF"></div> <button id="clearBtn">Borrar Todo</button>
+            </aside>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
